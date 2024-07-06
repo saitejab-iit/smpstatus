@@ -4,7 +4,7 @@ import sqlite3
 from io import BytesIO
 
 
-st.set_page_config(page_title="SmartPrep Degree",page_icon="https://i.imgur.com/S9k9LNT.png")
+st.set_page_config(page_title="SmartPrep Special",page_icon="https://i.imgur.com/S9k9LNT.png")
 
 # Function to fetch subjects from the database
 def fetch_subjects():
@@ -130,7 +130,7 @@ def add_logo():
 
 
 def main():
-    st.title("Smartprep for Degree")
+    st.title("Smartprep for You")
     st.write("We are happy to offer you a seamless experience in selecting your preferred practice papers. Should you require any assistance in navigating our website, please do not hesitate to refer to the guidelines section for detailed instructions. We wish you the very best in your exam preparations. May success be yours!")
     st.markdown(
         """
